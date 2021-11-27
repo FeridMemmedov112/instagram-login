@@ -1,0 +1,133 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f4f4f4;
+    padding-top: 40px;
+    min-height: 100vh;
+    
+}
+.instagram{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.instagram-box {
+    height: 430px;
+    background-color:white;
+    width: 382px;
+    border: 1px solid #d3d1d1;
+}
+.img{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 8px 9px;
+}
+
+
+ form {
+    text-align: center;
+  
+}
+.phone{
+    border-radius: 3px; 
+    height: 36px; 
+    width: 258px;
+    border: 1px solid #ddd;
+    
+}
+
+.password{
+    border-radius: 3px; 
+    height: 36px; 
+    width: 258px;
+    border: 1px solid #ddd;
+}
+
+button{
+    border: 1px solid #0095f6 ;
+    background-color: #0095f6;
+   text-align: center;
+    height: 30px;
+    width: 268px;
+    border-radius: 2px;
+    color: white; 
+    
+}
+.button{
+    text-align: center;
+    padding-top: 10px;
+}
+
+
+.login{
+    text-decoration: none; 
+    color: #385185;  
+}
+.forget{
+    text-decoration: none; 
+    color: #385185;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+}
+.fb{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+ .sign{
+    height: 80px;
+    background-color:white;
+    width: 382px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px auto;
+    border: 1px solid #d3d1d1;
+    
+    
+ }
+ .signup{
+     text-decoration: none;
+     color: #385185
+ }
+ .img-2{
+    display: flex;
+    justify-content: center;
+  padding: 15px;
+    align-items: center;
+    cursor: pointer;
+}
+footer{
+    display: flex;
+    align-items: flex-start;
+    justify-content:space-around;
+  
+}
+footer a{
+    color: #8e8e8e;
+    text-decoration: none;
+    padding: 10px 11px;
+
+}
+select{
+    border: 1px solid #ddd;
+    color: #8e8e8e;
+}
+.lang {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    color: #8e8e8e;
+}
